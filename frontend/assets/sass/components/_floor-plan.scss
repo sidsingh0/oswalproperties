@@ -1,0 +1,11 @@
+.floor-plan__image{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
+
+#floorplan-container {
+    @media (max-width:768px) {
+        margin-top: 24px;
+    }
+}

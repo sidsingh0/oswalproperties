@@ -1,0 +1,26 @@
+.imgfix{
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .parent-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 20px; /* Adjust this value as needed for desired vertical alignment */
+    }
+    
+    .prev,
+    .next {
+      display: flex;
+      align-items: center;
+      margin-top: 110px; /* Adjust this value for spacing between the icons */
+    }    
+}
+  
+
+  
+  
+  
+  
+  

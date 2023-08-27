@@ -1,0 +1,30 @@
+@media screen and (max-width:500px) {
+    .hero{
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0, 0.5)), url("../public/images/hero2.jpg");
+        background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.5)), url("../public/images/hero2.jpg"); /* The least supported option. */
+        background-position: right 0px center!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .hero .display-3{
+        color: white!important;
+    }
+    .hero h3{
+        color: #bdbdbd!important;
+    }
+    .hero .button-secondary{
+        border: 1px solid #bdbdbd;
+        color: #bdbdbd;
+    }
+    .single-page{
+        background-color: #f5f5f5!important;
+    }
+    .swiper-wrapper{
+        height: 300px!important;
+    }
+    .swiper-slide .swiper-slide-next{
+        height: 100%;
+    }
+}
+

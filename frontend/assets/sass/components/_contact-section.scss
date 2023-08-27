@@ -1,0 +1,26 @@
+.contact__image {
+    position: relative;
+    padding-top: 100%;
+
+    .contact__image-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.floor-plain-image-container{
+    position: relative;
+    padding-top: 100%;
+    .floor-plan__image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
